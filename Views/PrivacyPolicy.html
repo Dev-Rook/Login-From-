@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/Privacy-Policy/PP.css">
+    <script src="../index.js"></script>
     <title>Pravacy & Policy</title>
 </head>
 <body>
@@ -39,8 +40,38 @@
                 <input placeholder="Search..." type="text" class="Search">
             </div>
 
-            <img src="../Assets/Icons/Menu-Icon.png" alt="" class="MenuIcon">
+            <img onclick="toggle()" src="../Assets/Icons/Menu-Icon.png" alt="" class="MenuIcon">
         </ul>
+
+                
+        <div class="SideMenu">
+            <img onclick="toggle()" src="./Assets/Icons/Close-Icon.png" alt="" class="CloseIcon">
+
+            <h1 class="Brand">Module 6</h1>
+
+            <ul class="MobileLink_Container">
+                <li class="MobileLink_Item">
+                    <a href="./Views/Home.html" class="MobileLink">
+                        Home
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="./Views/About.html" class="MobileLink">
+                        About
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="./Views/PrivacyPolicy.html" class="MobileLink">
+                        Privacy & Policy
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="./index.html" class="MobileLink">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <div class="About_Content_Box">
@@ -56,5 +87,7 @@
             TOS
         </button>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
