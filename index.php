@@ -85,12 +85,13 @@ include "serverlogin.php";
                 <input placeholder="Username..." type="text" class="Input" name="username">
                 <input placeholder="Password..." type="password" class="Input" name="password">
             </fieldset>
-
+            
             <a href="./Views/Home.html">
                 <button type="submit" name="Submit" value="login" class="Login_Button">
                     Login
                 </button>
             </a>
+            <span><?php echo $err; ?></span>
 
         </form>
 
