@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/Login/Login.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="Header_Container">
-        <!-- <img src="" alt="" class="Header_Image"> -->
+        <img src="./Assets/Images/Brown-Topography-Map.jpg" alt="" class="Header_Image">
     </div>
     <nav class="Nav">
         <ul class="NavLink_Container">
             <li class="NavLink_Item">
-                <a href="#" class="NavLink">
+                <a href="./Views/Home.html" class="NavLink">
                     Home
                 </a>
             </li>
             <li class="NavLink_Item">
-                <a href="#" class="NavLink">
+                <a href="../Views/About.html" class="NavLink">
                     About
                 </a>
             </li>
             <li class="NavLink_Item">
-                <a href="#" class="NavLink">
+                <a href="./Views/PrivacyPolicy.html" class="NavLink">
                     Privacy & Policy
                 </a>
             </li>
             <li class="NavLink_Item">
-                <a href="#" class="NavLink">
+                <a href="../index.html" class="NavLink">
                     Login
                 </a>
             </li>
@@ -39,8 +39,37 @@
                 <input placeholder="Search..." type="text" class="Search">
             </div>
 
-            <img src="./Assets/Icons/Menu-Icon.png" alt="" class="MenuIcon">
+            <img onclick="toggle()" src="./Assets/Icons/Menu-Icon.png" alt="" class="MenuIcon">
         </ul>
+        
+        <div class="SideMenu">
+            <img onclick="toggle()" src="./Assets/Icons/Close-Icon.png" alt="" class="CloseIcon">
+
+            <h1 class="Brand">Module 6</h1>
+
+            <ul class="MobileLink_Container">
+                <li class="MobileLink_Item">
+                    <a href="#" class="MobileLink">
+                        Home
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="#" class="MobileLink">
+                        About
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="#" class="MobileLink">
+                        Privacy & Policy
+                    </a>
+                </li>
+                <li class="MobileLink_Item">
+                    <a href="#" class="MobileLink">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
 
@@ -60,5 +89,9 @@
             <img src="./Assets/Images/Skull-Bones.jpg" alt="" class="Form_Image">
         </div>
     </div>
+
+
+
+    <script src="./index.js"></script>
 </body>
 </html>
