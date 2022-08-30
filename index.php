@@ -87,7 +87,7 @@ include "serverlogin.php";
             </fieldset>
 
             <a href="./Views/Home.html">
-                <button type="submit" class="Login_Button">
+                <button type="submit" name="Submit" value="login" class="Login_Button">
                     Login
                 </button>
             </a>

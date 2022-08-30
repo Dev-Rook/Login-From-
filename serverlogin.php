@@ -1,6 +1,6 @@
 <?php
 $err = '';
-if (isset($_POST['submit'])) {
+if (isset($_POST['Submit'])) {
     if (empty($_POST['user']) || empty($_POST['pass'])) {
         echo 'Form fields cannot be empty! Try again!';
     } else {
