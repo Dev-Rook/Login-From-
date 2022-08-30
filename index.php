@@ -1,5 +1,10 @@
+<?php
+include "serverlogin.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +12,7 @@
     <link rel="stylesheet" href="./Styles/Login/Login.css">
     <title>Login</title>
 </head>
+
 <body>
     <div class="Header_Container">
         <img src="./Assets/Images/Brown-Topography-Map.jpg" alt="" class="Header_Image">
@@ -41,7 +47,7 @@
 
             <img onclick="toggle()" src="./Assets/Icons/Menu-Icon.png" alt="" class="MenuIcon">
         </ul>
-        
+
         <div class="SideMenu">
             <img onclick="toggle()" src="./Assets/Icons/Close-Icon.png" alt="" class="CloseIcon">
 
@@ -76,8 +82,8 @@
     <div class="Form_Container">
         <form action="" class="Login_Form">
             <fieldset>
-                <input placeholder="Username..." type="text" class="Input">
-                <input placeholder="Password..." type="password" class="Input">
+                <input placeholder="Username..." type="text" class="Input" name="username">
+                <input placeholder="Password..." type="password" class="Input" name="password">
             </fieldset>
 
             <button type="submit" class="Login_Button">
@@ -94,4 +100,5 @@
 
     <script src="./index.js"></script>
 </body>
+
 </html>
