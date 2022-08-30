@@ -135,6 +135,8 @@ ul {
         rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       background-color: rgba(0, 0, 0, 0.5);
       padding: 5px;
+      outline: none;
+      border: none;
 
       width: 100%;
 
@@ -146,7 +148,6 @@ ul {
   }
 
   .Form_Image_container {
-    border: 1px solid black;
     height: 100%;
     width: 50%;
 
@@ -154,6 +155,35 @@ ul {
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .Nav {
+    .NavLink_Container {
+      .NavLink_Item {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .Form_Container {
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+
+    .Login_Form {
+      width: 100%;
+    }
+
+    .Form_Image_container {
+      width: 100%;
     }
   }
 }

@@ -103,6 +103,8 @@ ul {
   box-shadow: rgba(255, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
+  outline: none;
+  border: none;
   width: 100%;
   color: white;
   font-family: sans-serif;
@@ -110,7 +112,6 @@ ul {
   font-weight: 400;
 }
 .Form_Container .Form_Image_container {
-  border: 1px solid black;
   height: 100%;
   width: 50%;
 }
@@ -119,4 +120,25 @@ ul {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media only screen and (max-width: 630px) {
+  .Nav .NavLink_Container .NavLink_Item {
+    display: none;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .Form_Container {
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .Form_Container .Login_Form {
+    width: 100%;
+  }
+  .Form_Container .Form_Image_container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Login.css.map */
