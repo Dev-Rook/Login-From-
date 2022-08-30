@@ -86,9 +86,12 @@ include "serverlogin.php";
                 <input placeholder="Password..." type="password" class="Input" name="password">
             </fieldset>
 
-            <button type="submit" class="Login_Button">
-                Login
-            </button>
+            <a href="./Views/Home.html">
+                <button type="submit" class="Login_Button">
+                    Login
+                </button>
+            </a>
+
         </form>
 
         <div class="Form_Image_container">
