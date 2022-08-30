@@ -1,7 +1,7 @@
 <?php
 $err = '';
 if (isset($_POST['Submit'])) {
-    if (empty($_POST['user']) || empty($_POST['pass'])) {
+    if (empty($_POST['username']) || empty($_POST['password'])) {
         echo 'Form fields cannot be empty! Try again!';
     } else {
         $user = $_POST['username'];

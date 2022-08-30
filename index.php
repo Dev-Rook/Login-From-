@@ -80,7 +80,7 @@ include "serverlogin.php";
 
 
     <div class="Form_Container">
-        <form action="" class="Login_Form">
+        <form action="" method="post" class="Login_Form">
             <fieldset>
                 <input placeholder="Username..." type="text" class="Input" name="username">
                 <input placeholder="Password..." type="password" class="Input" name="password">
