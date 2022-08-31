@@ -12,7 +12,7 @@ if (isset($_POST['Submit'])) {
 
         $record = mysqli_num_rows($query);
         if ($record = 1) {
-            header("Location: Home.html");
+            header("Location: About.html");
         } else {
             $err = "Incorrect Input!";
         }
